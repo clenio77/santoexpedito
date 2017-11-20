@@ -1,0 +1,263 @@
+/*@autor Clenio Afonso
+    @version 0.1
+    */
+
+/*=========================== layout ============================*/
+
+/* ========================= layout ======================== */
+
+/* ========================= layout ======================== */
+html, body, .capa {
+    height: 100%;
+}
+
+body, html{
+    background: url('imagens/capa2.png'),
+    url('imagens/ruido.png'),
+    linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+    height: 60px;
+    width: 145px;
+    display: block;
+    background: url('imagens/logo.png') no-repeat;
+    background-size: contain;
+    color: transparent;
+
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgb(0, 0, 0);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a {
+    color: white;
+    font-size: larger;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
+    color: #9bf0e1;
+    background: none;
+}
+
+.jumbotron img {
+    text-align:justify;
+    margin: 0 auto;
+}
+
+.col-md-4{
+    text-align: center;
+}
+.col-md-4 ol {
+    text-align: left;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+}
+.col-md-4 article p{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.img-circle{
+    float:left;
+    margin:0 20px 10px 0;
+    padding: 5px;
+}
+
+
+
+/* -- Imagem de capa -- */
+.capa {
+    display: table;
+    width: 100%;
+    height: 75%;
+}
+
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+/* -- Botoes -- */
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    margin: 1px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+
+}
+
+.btn-roxo {
+    background: #7c25f8;
+
+}
+.btn-roxo:hover {
+    background-color: #2b669a;
+    color: white;
+
+
+}
+
+.btn-branco {
+    border: 2px solid white;
+}
+.btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* -- secao servico -- */
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0px 10px 0px;
+}
+
+/* -- recursos -- */
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    padding-left: 80px;
+}
+
+.mapas iframe{
+    width: 100%;
+    height: 450px;
+    margin-top: 45px;
+    zoom: 140%;
+}
+
+
+/* -- rodape -- */
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+.item-rede-social{
+    float: right;
+}
+
+/* ========================= Tipografia ======================== */
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    margin-bottom: 42px;
+    margin-top: 68px;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+
+}
+
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+
+}
+
+.jumbotron{
+    align-items: center;
+}
+
+.table-striped tr{
+    color:#985f0d;
+
+}
+
+ th{
+    color: #67b168;
+    text-align: center;
+}
+ td{
+     color:#6207e3 ;
+     text-align: center;
+ }
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 20px;
+    background-color: #CC3300; 
+    text-align: center;
+    color: black;
+    vertical-align: center;
+    margin: 5px;
+}
+
+
+
+
+#rodape h4 {
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#servicos h2 {
+    color:#6207e3;
+    text-align: center;
+
+}
+
+#servicos h3{
+    color:darkgreen;
+    text-align: center;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+
+}
+
+
+/*.col-md-6 h3{*/
+    /*text-align: center;*/
+    /*padding: 5px;*/
+/*}*/
