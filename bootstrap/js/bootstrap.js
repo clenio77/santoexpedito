@@ -2361,3 +2361,24 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+// função pisca elemento
+
+    function trocaCor() {
+
+        window.onload = function () {
+            setInterval("trocaCor()", 2000);
+        }
+
+        function trocaCor() {
+            var pisca = document.getElementById("pisca1");
+            if (pisca.style.backgroundColor === "red") {
+                pisca.style.backgroundColor = "black";
+                setTimeout("trocaCor();", 2000);
+            }
+            else {
+                pisca.style.backgroundColor = "green";
+                setTimeout("trocaCor();", 2000);
+            }
+        }
+    }
