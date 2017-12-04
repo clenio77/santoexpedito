@@ -202,6 +202,11 @@ nav.navbar-transparente {
     margin-top: 45px;
     zoom: 140%;
 }
+.iframe{
+    width: 380px;
+    height: 300px;
+    border: none;
+}
 
 .fb-page{
     text-align: right;
